@@ -1,0 +1,12 @@
+{
+  "slug": "sample-app",
+  "name": "Sample App",
+  "tagline": "A helpful new experience.",
+  "description": "Replace this with a truthful summary of your application.",
+  "features": [
+    "Describe a real feature",
+    "Describe another real feature"
+  ],
+  "artwork": "",
+  "screenshots": []
+}

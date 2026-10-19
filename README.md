@@ -35,3 +35,37 @@ Open http://localhost:8000/
 5. Test all links and publish.
 
 The News App is a **placeholder only**; it has no published product page or invented privacy policy. Frontis pages and URLs have not been changed.
+
+
+## How to create  next app
+
+For example, when you're ready to develop a News App, copy:
+templates/app.example.json
+Rename the copy to news-app.json and edit its contents:
+{
+  "slug": "news",
+  "name": "News App",
+  "tagline": "Stay informed, wherever you are.",
+  "description": "A future news-reading application.",
+  "features": [
+    "Browse news stories",
+    "Explore news categories",
+    "Save favorite articles"
+  ],
+  "artwork": "",
+  "screenshots": []
+}
+
+
+These features are examples for a potential future product, not claims about an existing app.
+Run:
+python3 create_app.py templates/news-app.json
+
+
+The generator creates:
+news/
+├── index.html
+├── privacy/
+│   └── index.html
+└── support/
+    └── index.html
