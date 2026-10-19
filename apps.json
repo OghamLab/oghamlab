@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "slug": "frontis",
+      "name": "Frontis",
+      "category": "Music & audio",
+      "status": "published",
+      "featured": true,
+      "description": "Music playback, worldwide internet radio, and a creative audio studio in one experience.",
+      "artwork": "/images/frontis.png",
+      "support": "/frontis/support/",
+      "privacy": "/frontis/privacy/",
+      "support_description": "FAQs, troubleshooting and audio playback help",
+      "privacy_reviewed": true
+    },
+    {
+      "slug": "news",
+      "name": "News App",
+      "category": "Concept",
+      "status": "concept",
+      "featured": true,
+      "description": "A space reserved for a possible future news experience. Details have not been announced.",
+      "artwork": "",
+      "privacy_reviewed": false
+    }
+  ]
+}

@@ -59,7 +59,7 @@ def main():
         if 'Draft — do not publish' in privacy:
             print('NOT added to catalog: privacy policy is a review-required draft. Complete the policy before publishing.')
     else:
-        print('Not listed publicly. Review privacy and app content before linking it from the catalog.')
+        print('Not listed publicly. Review privacy and app content, then add a published entry to apps.json and run python3 build_catalog.py.')
 
 if __name__ == '__main__':
     main()

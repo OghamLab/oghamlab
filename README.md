@@ -36,6 +36,10 @@ Open http://localhost:8000/
 
 The News App is a **placeholder only**; it has no published product page or invented privacy policy. Frontis pages and URLs have not been changed.
 
+## Increment 9: reusable app template
+
+See `INCREMENT9.md`. Run `python3 create_app.py templates/app.example.json` to generate sample pages locally (not added to public navigation). Review and replace the generated privacy draft before publishing any app.
+
 
 ## How to create  next app
 
@@ -69,3 +73,9 @@ news/
 │   └── index.html
 └── support/
     └── index.html
+
+
+## Increment 10
+
+See [INCREMENT10.md](INCREMENT10.md) for automated app catalog instructions.
+
