@@ -14,14 +14,16 @@
       "privacy_reviewed": true
     },
     {
-      "slug": "news",
-      "name": "News App",
-      "category": "Concept",
-      "status": "concept",
+      "slug": "fivethirtyeight",
+      "name": "FiveThirtyEight App",
+      "category": "News & Statistical Analysis",
+      "status": "published",
       "featured": true,
-      "description": "A space reserved for a possible future news experience. Details have not been announced.",
+      "description": "Stay informed with a curated feed inspired by FiveThirtyEight’s data‑driven storytelling. Get clean, fast, analytical sports coverage that complements Sports Power Index’s modeling tools.`",
       "artwork": "",
-      "privacy_reviewed": false
+       "support": "/fivethirtyeight/support/",
+       "privacy": "/fivethirtyeight/privacy/",
+      "privacy_reviewed": true
     }
   ]
 }
